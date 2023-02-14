@@ -13,8 +13,14 @@
     <div id="wrapper">
         <div class="page1">
             <header>
-                <h2>Quizpop</h2>
-                <h2>User Create</h2>
+                <p>Quizpop</p>
+                <h2>User</h2>
+
+                <form>
+                    <input type="username" id="name" required>
+
+                    <input type="submit" value="Submit">
+                </form>
             </header>
 
 
@@ -47,36 +53,43 @@
             <p>Select Topic</p>
 
             <div class="anchor">
-            <a href="">Music </a>
-            <a href="">Modern Art</a>
-            <a href="">Coding </a>
-            <button>Start</button>
-        </div>
+                <a href="">Music </a>
+                <a href="">Modern Art</a>
+                <a href="">Coding </a>
+                <button>Start</button>
+            </div>
         </div>
         <div class="page3">
-                <p>time:<span>0</span></p>
-                <div class="box">
-                    <p >Quetion all</p>
-                    <span>
-                        <ul>
-                            <input type="radio" id="a" name="Quiz" class="Question">
-                            <label for="opt" id="opt">opt</label> <br>
+            <p>time:<span>0</span></p>
+            <div class="box">
+                <p>Quetion all</p>
+                <span>
+                    <ul>
+                        <li><input type="radio" id="a" name="Quiz" class="Question">
+                            <label for="a" id="opt">opt</label>
+                        </li> <br>
 
-                            <input type="radio"  id="b"name="Quiz" class="Question">
-                            <label for="opt1" id="opt1">opt1</label> <br> 
 
-                            <input type="radio"  id="c" name="Quiz" class="Question">
-                            <label for="opt2" id="opt2">opt2</label> <br> 
-
+                        <li><input type="radio" id="b"name="Quiz" class="Question">
+                            <label for="b" id="opt1">opt1</label> 
+                        </li><br>
+                        <li>
+                            <input type="radio" id="c" name="Quiz" class="Question">
+                            <label for="c" id="opt2">opt2</label>
+                        </li> <br>
+                        <li>
                             <input type="radio" id="d" name="Quiz" class="Question">
-                            <label for="opt3" id="opt3">opt3</label> <br>    
-                        </ul>
-                    </span>
-                </div>
-                <div class="play">
-                    <a href="">next</a>
-                    <a href="">Quiz</a>
-                </div>
+                            <label for="d" id="opt3">opt3</label>
+                        </li> <br>
+                    </ul>
+                </span>
+            </div>
+            <div class="play">
+                <a href="">next</a>
+                <a href="">Quiz</a>
+            </div>
+
+            
         </div>
 
 
